@@ -607,7 +607,7 @@ function App() {
                         <h3 style={theme.styles.dialogTitle}>CONFIRM TERMINATION</h3>
                         <p style={theme.styles.dialogText}>
                             INITIATE PROTOCOL FOR REMOVAL OF "
-                            <span style={{ fontWeight: 'normal', wordBreak: 'break-all', color: ACCENT }}>
+                            <span style={{ fontWeight: 'normal', wordBreak: 'break-all', color: theme.ACCENT }}>
                                 {downloadToRemove.file_path?.split(/[\\/]/).pop()?.toUpperCase() ?? 'UNKNOWN DATA'}
                             </span>
                             "?
@@ -649,7 +649,7 @@ function App() {
                         <h3 style={theme.styles.conflictDialogTitle}>DATA CONFLICT DETECTED</h3>
                         <p style={theme.styles.conflictDialogText}>
                             A FILE WITH THE IDENTIFIER "
-                            <span style={{ fontWeight: 'normal', wordBreak: 'break-all', color: ACCENT }}>
+                            <span style={{ fontWeight: 'normal', wordBreak: 'break-all', color: theme.ACCENT }}>
                                 {fileConflict.filePath?.split(/[\\/]/).pop()?.toUpperCase() ?? 'UNKNOWN DATA'}
                             </span>
                             " ALREADY EXISTS. INITIATE OVERRIDE PROTOCOL?
@@ -672,14 +672,14 @@ function App() {
                             <button
                                 {...theme.getButtonStyles('primary', false)}
                                 onClick={() => handleFileConflictAction('resume')}
-                                style={{ backgroundColor: ACCENT, borderColor: BORDER_COLOR, color: TEXT_PRIMARY }}
+                                style={{ backgroundColor: theme.ACCENT, borderColor: theme.BORDER_COLOR, color: theme.TEXT_PRIMARY }}
                             >
                                 RESUME TRANSFER
                             </button>
                             <button
                                 {...theme.getButtonStyles('primary', !promptDefault.trim())}
                                 onClick={() => handleFileConflictAction('save_as', promptDefault)}
-                                style={{ backgroundColor: SURFACE_COLOR, borderColor: BORDER_COLOR, color: TEXT_PRIMARY }}
+                                style={{ backgroundColor: theme.SURFACE_COLOR, borderColor: theme.BORDER_COLOR, color: theme.TEXT_PRIMARY }}
                             >
                                 RENAME & SAVE
                             </button>
