@@ -1,0 +1,32 @@
+The Milmil7 License (v1.0)
+
+Copyright (c) 2025 milmil7 (https://github.com/milmil7)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the “Software”), to deal
+in the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, subject to the following conditions:
+
+1. Attribution Required:
+   Any public use, fork, distribution, or substantial portion of this Software
+   must give **clear and visible credit** to the original author:
+   **@milmil7 (https://github.com/milmil7)**.
+   
+   This includes, but is not limited to:
+   - Including this license file with your source code
+   - Mentioning the original author in README or documentation
+   - Providing a link back to the original GitHub repository when applicable
+
+2. No Misrepresentation:
+   You must not misrepresent the origin of the Software. You may not imply
+   that your fork or derivative is the original version or is endorsed by the
+   original author without permission.
+
+3. No Liability:
+   The Software is provided “as is”, without warranty of any kind, express or implied,
+   including but not limited to the warranties of merchantability, fitness for a
+   particular purpose and noninfringement. In no event shall the authors or
+   copyright holders be liable for any claim, damages or other liability.
+
+By using, modifying, or distributing this Software, you agree to the above terms.

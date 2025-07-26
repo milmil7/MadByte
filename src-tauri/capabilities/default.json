@@ -1,0 +1,48 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Capability for the main window",
+  "windows": [
+    "main"
+  ],
+  "permissions": [
+    "core:default",
+    "opener:default",
+    "notification:default",
+    "dialog:default",
+    "dialog:default",
+    "opener:default",
+    "core:webview:allow-webview-close",
+    "core:window:allow-close",
+    "opener:allow-open-path",
+    "opener:allow-open-url",
+    "opener:allow-default-urls",
+    "opener:allow-reveal-item-in-dir",
+    "core:app:allow-default-window-icon",
+    "core:tray:allow-new",
+    "core:tray:allow-get-by-id",
+    "core:tray:allow-remove-by-id",
+    "core:tray:allow-set-icon",
+    "core:tray:allow-set-icon-as-template",
+    "core:tray:allow-set-menu",
+    "core:tray:allow-set-show-menu-on-left-click",
+    "core:tray:allow-set-temp-dir-path",
+    "core:tray:allow-set-title",
+    "core:tray:allow-set-tooltip",
+    "core:tray:allow-set-visible",
+    "core:window:allow-show",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-minimize",
+    "core:window:allow-start-dragging",
+    "core:window:allow-hide",
+    {
+      "identifier": "opener:allow-open-path",
+      "allow": [
+        {
+          "path": "/**/*.*"
+        }
+      ]
+    }
+
+  ]
+}
